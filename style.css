@@ -70,91 +70,71 @@ body{
 }
 
 /* burger menu */
-.burger_menu{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #333;
-    width: 250px;
-    height: 40px;
+.collapse_menu{
+    position: relative;
+    top: -150px;
+}
+.burger_btn{
     display: none;
 }
-.menu_btn{
-    background-color: #ffc61a;
-    text-align: center;
-}
-.check_menu_label{
-    display: block;
-    cursor: pointer;
-    font-size: 30px;
-}
-#menu_check{
-    display: none;
-}
-.menu_line{
-    position: absolute;
-    top: 18px;
-    right: 20px;
-    width: 30px;
+.burger_line1{
+    width: 40px;
     height: 3px;
-    background-color: #000;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
-.first{
-    top: 10px;
+.burger_line2{
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
-.fours{
-    top: 26px;
+.burger_line3{
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
-.menu{
-    transform: translateY(10%);
+.collapse_nav{
     display: none;
 }
-.menu_item{
-    color: #333;
-    background-color: #ffc61a;
-    font-size: 25px;
-    margin-top: 5px;
-    border-bottom: 2px solid #fff;
-}
-.menu_item a{
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.menu_item:hover{
-    background-color: black;
-}
-.menu_item:hover a{
-    color: #ffc61a;
-}
-
-#menu_check:checked ~ .menu{
+.collapse_nav_active{
     display: block;
-}
-#menu_check:checked ~ .first{
-    display: none;
-}
-#menu_check:checked ~ .fours{
-    display: none;
-}
-#menu_check:checked ~ .second{
-    transform: rotate(-45deg);
-}
-#menu_check:checked ~ .third{
-    transform: rotate(45deg);
+    position: absolute;
+    top: 75px;
+    right: 15px;
 }
 
+.collapse_nav_item a{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
 
+    padding: 13px 23px 9px 20px;
+
+    transition: background-color .1s linear,
+    border-radius .1s linear;
+}
+.collapse_nav_item:hover a{
+    background-color: #ffc61a;
+    border-radius: 15px;
+    color: #010101;
+}
 
 /* first_section*/
-.first_section{
+.banner{
     background: url('img/main.png')
     center no-repeat;
     background-size: cover;
     width: 100%;
     height: 740px;
 }
-.first_section_inner{
+.banner_inner{
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -681,21 +661,29 @@ body{
 /* Responsive */
 
 /* Смартфони  */
-@media only screen and (max-device-width : 660px) {
+@media only screen and (max-device-width : 840px) {
     .header_nav{
         display: none;
     }
-
-    .burger_menu{
+    .burger_btn{
         display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
-
     .about_inner{
-    flex-wrap: wrap;
-    justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-
+    .about_item{
+        width: 100%;
+    }
     .item_content{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-left: 20px;
     }
 
