@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CabHub </title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/54758d7b1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<header class="main_header">
+		<div class="main_header_inner">
+			<div class="header_logo">
+				<div class="logo_title">
+					Cab<span class="yellow_title">HUB</span>
+				</div>
+				<div class="logo_text">
+					Call and Relex
+				</div>
+			</div>
+			<nav class="header_nav">
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> Home </a>
+				</div>
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> About </a>
+				</div>
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> Features  </a>
+				</div>
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> Blog  </a>
+				</div>
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> Order now</a>
+				</div>
+				<div class="nav_item">
+					<a class="nav_link" href="#" target="blank"> Contacts   </a>
+				</div>
+			</nav>			
+		</div>
+
+		<div class="burger_menu">
+			<div class="menu_btn">
+				<input type="checkbox" id="menu_check">
+				<label for="menu_check" class="check_menu_label"> Menu </label>
+				<div class="menu_line first"></div>
+				<div class="menu_line second"></div>	
+				<div class="menu_line third"></div>	
+				<div class="menu_line fours"></div>	
+				<nav class="menu">
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> Home </a>  
+					</div>
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> About </a>  
+					</div>
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> Features </a>  
+					</div>
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> Blog </a>  
+					</div>
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> Order now </a>  
+					</div>
+					<div class="menu_item"> 
+						<a class="menu_link" href="#" target="blank"> Contacts </a>  
+					</div>
+				</nav>
+			</div>	
+		</div>
+		
+	</header>
+
+	<section class="first_section">
+		<div class="container">
+			<div class="first_section_inner">
+				<div class="main_title">+123 4567 8900</div>
+				<div class="main_text">www.PSD.in.ua</div>
+				<img class="main_car" src="img/main_car.png" alt="main_car">
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="about_inner">
+				<div class="about_item">
+					<div class="item_content">
+						<div class="about_sup_title">
+							BEst In City
+						</div>
+						<div class="about_title">
+							Trusted Cab Servies
+							in New York
+						</div>
+						<div class="about_text">
+							Quisque sollicitudin feugiat risus, 
+							eu posuere ex euismod eu. 
+							Phasellus hendrerit, massa efficitur 
+							apibus pulvinar, sapien eros sodales 
+							ante, euismod aliquet nulla metus a 
+							mauris.Quisque sollicitudin feugiat 
+							risus, eu posuere ex euismod eu. 
+							Phasellus hendrerit, massa efficitur 
+							dapibus pulvinar, sapien eros sodales 
+							ante, euismod aliquet nulla metus a 
+							mauris.
+						</div>
+						<button class="read_more">read more </button>
+					</div>
+				</div>
+				<div class="about_item user_form">
+					<div class="book_form">
+						<div class="book_title">
+							Book a <span class="yellow_text"> Cab </span> 
+						</div>
+						<div class="book_info">
+							<input type="text" placeholder="Name" id="user_name" class="user_info">
+							<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone" id="user_phone" class="user_info">
+							<input type="text" placeholder="When" onfocus="(this.type='date')" id="user_date_start" class="user_info">
+							<input type="text" placeholder="Time"onfocus="(this.type='time')"  id="user_date_time" class="user_info">
+							<input type="text" placeholder="Start" id="user_start" class="user_info">
+							<input type="text" placeholder="End" id="user_end" class="user_info">
+							<select class="user_vehicle">
+								<option value disabled selected> Choose vehicle </option>
+								<option> Audi A6 </option>
+								<option> Audi A4 </option>
+								<option> Mercedes Benz </option>
+							</select>
+						</div>
+						<input type="submit" class="submit_btn" value="Submit">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tariffs">
+		<div class="container">
+
+			<header class="tariffs_header">
+				<div class="tariffs_suptitle">
+					Our
+				</div>
+				<div class="tariffs_title">
+					Tariffs
+				</div>
+			</header>
+
+			<div class="tariffs_card">
+				<div class="card_item">
+					<img src="img/tariffs_car.png" alt="tariffs_car" class="tariffs_car_img">
+					<div class="card_item_content">
+						<div class="card_title">
+							Economy Class
+						</div>
+						<div class="card_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+						<div class="card_price">
+							$1,5/mi
+						</div>
+						<button class="read_more card_btn">read more </button>
+						<img src="img/star.png" class="right_bottom_star" alt="star">
+					</div>
+				</div>
+				<div class="card_item">
+					<img src="img/tariffs_car.png" alt="tariffs_car" class="tariffs_car_img">
+					<div class="card_item_content">
+						<div class="card_title">
+							Economy Class
+						</div>
+						<div class="card_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+						<div class="card_price">
+							$1,5/mi
+						</div>
+						<button class="read_more card_btn">read more </button>
+						<img src="img/star.png" class="right_bottom_star" alt="star">
+					</div>
+				</div>
+				<div class="card_item">
+					<img src="img/tariffs_car.png" alt="tariffs_car" class="tariffs_car_img">
+					<div class="card_item_content">
+						<div class="card_title">
+							Economy Class
+						</div>
+						<div class="card_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+						<div class="card_price">
+							$1,5/mi
+						</div>
+						<button class="read_more card_btn">read more </button>
+						<img src="img/star.png" class="right_bottom_star" alt="star">
+					</div>
+				</div>
+			</div>
+				
+			
+
+		</div>
+	</section> <!-- /.tariffs -->
+
+	<section class="choose_us">
+		<div class="container">
+			
+			<header class="section_header">
+				<div class="section_suptitle">
+					We Do Best
+				</div>
+				<div class="section_title">
+					Than You Wish
+				</div>
+			</header> <!-- /.choose_us_header -->
+
+			<div class="choose_us_content">
+				<div class="choose_us_item">
+					<div class="choose_logo">
+						<img src="img/icons/icon1.png" class="choose_logo_icon" alt="star">
+					</div>
+					<div class="choose_item_content">
+						<div class="choose_item_title">
+							Home pickup
+						</div>
+						<div class="choose_item_text">
+							Quisque sollicitudin feugiat risus, 
+							eu posuere ex euismod eu. Phasellus hendrerit, 
+							massa efficitur.
+						</div>
+					</div>
+				</div>
+				<div class="choose_us_item">
+					<div class="choose_logo">
+						<img src="img/icons/icon2.png" class="choose_logo_icon" alt="star">
+					</div>
+					<div class="choose_item_content">
+						<div class="choose_item_title">
+							Fast booking
+						</div>
+						<div class="choose_item_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+					</div>
+				</div>
+				<div class="choose_us_item">
+					<div class="choose_logo">
+						<img src="img/icons/icon3.png" class="choose_logo_icon" alt="star">
+					</div>
+					<div class="choose_item_content">
+						<div class="choose_item_title">
+							Bonuses for ride
+						</div>
+						<div class="choose_item_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+					</div>
+				</div>
+				<div class="choose_us_item">
+					<div class="choose_logo">
+						<img src="img/icons/icon4.png" class="choose_logo_icon" alt="star">
+					</div>
+					<div class="choose_item_content">
+						<div class="choose_item_title">
+							GPS searching
+						</div>
+						<div class="choose_item_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="choose_us_btn">
+				<button class="read_more card_btn">read more </button>
+			</div>
+
+		</div> <!-- /.container -->
+	</section> <!-- /.choose_us -->
+
+	<section class="app">
+		<div class="container">
+
+			<header class="section_header">
+				<div class="section_suptitle">
+					Download
+				</div>
+				<div class="section_title app_title">
+					Best Cab servies
+				</div>
+			</header> <!-- /.app_header -->
+
+			<div class="app_inner">
+				<div class="app_item">
+					<div class="app_item_content">
+						<div class="app_item_title">
+							Downlaod the Cab voucher app free! <br>
+							Get Exciting New Offers
+						</div>
+						<div class="app_item_text">
+							Quisque sollicitudin feugiat risus,
+							eu posuere ex euismod eu. Phasellus hendrerit,
+							massa efficitur.
+						</div>
+						<div class="app_btn">
+							<a href="#" class="app_download_btn" target="blank">
+								<div class="btn_app_img">
+									<img class="app_icons" src="img/icons/google-play.png" alt="goole-play"> 
+								</div>
+								<div class="app_btn_text">
+									<div class="btn_app_suptitle"> Android app on</div>
+									<div class="btn_app_title"> Google Play </div>
+								</div>
+							</a>
+							<a href="#" class="app_download_btn" target="blank">
+								<div class="btn_app_img">
+									<img class="app_icons" src="img/icons/apple.png" alt="apple"> 
+								</div>
+								<div class="app_btn_text">
+									<div class="btn_app_suptitle"> Download on</div>
+									<div class="btn_app_title"> App Store </div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="app_item">
+					<img class="app_img" src="img/hand.png" alt="hand">
+				</div>
+			</div>
+
+		</div> <!-- /.container -->
+	</section> <!-- /app -->
+
+	<section class="happy_clients">
+
+		<header class="section_header">
+			<div class="section_suptitle">
+				Happy Client's
+			</div>
+			<div class="section_title">
+				Testimonials
+			</div>
+		</header> <!-- /.happy_clients_header -->
+
+		<div class="container">
+			<div class="clients_card">
+				<div class="clients_card_item">
+					<div class="clinets_item_text">
+						Quisque sollicitudin feugiat risus, 
+						eu posuere ex euismod eu. Phasellus hendrerit, 
+						massa efficitur.Quisque sollicitudin 
+						feugiat risus.
+					</div>
+					<div class="clients_info">
+						<div class="clients_photo">
+							<img src="img/jon_doe.png" alt="photo">
+						</div>
+						<div class="clients_inner">
+							<div class="clients_name">
+								John Doe
+							</div>
+							<div class="clients_profesion">
+								Business Man
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clients_card_item">
+					<div class="clinets_item_text">
+						Quisque sollicitudin feugiat risus, 
+						eu posuere ex euismod eu. Phasellus hendrerit, 
+						massa efficitur.Quisque sollicitudin 
+						feugiat risus.
+					</div>
+					<div class="clients_info">
+						<div class="clients_photo">
+							<img src="img/jon_doe.png" alt="photo">
+						</div>
+						<div class="clients_inner">
+							<div class="clients_name">
+								John Doe
+							</div>
+							<div class="clients_profesion">
+								Business Man
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="call_number">
+		<div class="call_title">
+			We are Ready to Take Your Call 24 Hours, 7 Days!
+		</div>
+		<div class="tel_number">
+			+123 4567 8900
+		</div>
+	</section>
+
+	<footer class="footer">
+
+		<div class="container">
+			<div class="footer_content">
+				<div class="footer_item">
+					<div class="footer_title">
+						About Cab Hub
+					</div>
+					<div class="footer_text">
+						Quisque sollicitudin feugiat risus, 
+						eu posuere ex euismod eu. Phasellus 
+						hendrerit, massa efficitur.Quisque 
+						sollicitudin feugiat risus, 
+						eu posuere ex euismod eu.
+					</div>
+					<div class="footer_social">
+						<a href="http://facebook.com" target="blank">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="http://google.com" target="blank">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+						<a href="http://twitter.com" target="blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="http://instagram.com" target="blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+
+					</div>
+				</div>
+
+				<div class="footer_item">
+					<div class="footer_title">
+						Download
+					</div>
+					<div class="footer_text">
+						Quisque sollicitudin feugiat risus, 
+						eu posuere ex euismod eu. Phasellus 
+						hendrerit.
+					</div>
+					<div class="footer_download">
+						<a class="app_download" href="#" target="blank">
+							<div class="app_name">
+								Android Users
+							</div>
+							<div class="app_logo">
+								<img src="img/icons/android_icon_download.png" alt="android">
+							</div>
+						</a>
+						<a class="app_download" href="#" target="blank">
+							<div class="app_name">
+								IOS Users
+							</div>
+							<div class="app_logo">
+								<img src="img/icons/apple_icon_download.png" alt="android">
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="footer_item">
+					<div class="footer_title">
+						Contact
+					</div>
+					<div class="footer_text">
+						<div class="contact_information">
+							<div class="contact_logo">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="contact_text">
+								+123, Main Street, Your City,
+								New York, USA 789456
+							</div>
+						</div>
+
+						<div class="contact_information">
+							<div class="contact_logo">
+								<i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="contact_text">
+								+123 4567 8900
+							</div>
+						</div>
+
+						<div class="contact_information">
+							<div class="contact_logo">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<div class="contact_text">
+								free@psd.in.ua
+							</div>
+						</div>
+
+						<div class="contact_information">
+							<div class="contact_logo">
+								<i class="fas fa-mouse-pointer"></i>
+							</div>
+							<div class="contact_text">
+								www.psd.in.ua
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			Copyright &copy; 2015 psd.in.ua
+		</div>
+	</footer>
+	
+</body>
+</html>
