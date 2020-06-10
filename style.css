@@ -166,7 +166,7 @@ body{
     background-color: #ffc61a;
 }
 .about_inner{
-    padding: 150px 5px 75px 5px;
+    padding: 150px 15px 75px 15px;
 
     display: flex;
     justify-content: space-between;
@@ -180,6 +180,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     color: #000;
+    text-align: center;
 }
 .about_title{
     font-size: 50px;
@@ -685,8 +686,8 @@ body{
         justify-content: center;
         align-items: center;
         padding-left: 20px;
+        padding-right: 0px;
     }
-
     .user_form{
         margin-top: 50px;
         width: 422px;
